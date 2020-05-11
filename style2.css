@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+
+}
+
+.back-rb{
+	background: url(rb-caip.jpg);
+	background-repeat: repeat-y;
+	background-size: 50%;
+	width: 100%;
+}
+
+.mv-auto{
+	display: flex;
+	align-items: center;
+}
+
+.form-group input{
+	height: auto;
+	border-radius: 0.5rem;
+}
+
+form .btn{
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	padding: 0.7rem;
+}
+
+.btn-jv{
+	color: red;
+	background-color: rgba(0,0,0,0)
+}
+
+.btn-jv2{
+	color: red;
+}
+
+.btn-jv:hover{
+	color: yellow;
+	background: black;
+}
+
+.btn-jv2:hover{
+	color: #ff4500;
+}
+
+.text-jv{
+	color: red;
+	font-weight: bold;
+}
+
+.transp-card{
+	background-color: rgba(0,0,0,0);
+}
+
+.transp-card2{
+	background-color: rgba(0,0,0,0);
+	border:none;
+}

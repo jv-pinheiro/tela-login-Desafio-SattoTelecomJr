@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faça seu login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="icon" type="image/css" href="rb-logo2.jpg">
+</head>
+<body>
+<div class="container">
+		<div class="card mx-auto">
+  			<div class="row mv-auto">
+    			<div class="col-6">
+      				<img src="rb-caip.jpg" class="card-img" alt="...">
+    			</div>
+    			<div class="col-6">
+    				<div class="card-body">
+						<div class="card-title text-center">
+							<img src="rb-logo2.jpg" width="200">
+						</div>
+						<form method="post" action="$PORTAL_ACTIONS">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Usuário:</label>
+								<input type="text" name="auth_user" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome cadastrado...">
+								<small id="emailHelp" class="form-text text-muted">Reservado para usuários cadastrados.</small>
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Senha:</label>
+								<input type="password" name="auth_pass" class="form-control" id="exampleInputPassword1" placeholder="Senha cadastrada...">
+							</div>
+							<div class="form-group">
+								<hr style="border-color: #FF0000; border-width: 3px">
+								<label for="exampleInputPassword1">Olá "RepublicFan", digite abaixo sua credencial obtida no balcão ou com o garçom:</label>
+								<input type="text" name="auth_voucher" class="form-control" id="exampleInputPassword1" placeholder="Voucher/credenciais...">
+							</div>
+							<input type="hidden" name="rediurl" value="$PORTAL_REDIRURL$">
+							<input type="hidden" name="zone" value="$PORTAL_ZONE$">
+							<button type="submit" name="accept" value="Continue" class="btn btn-block btn-jv text-uppercase">Verificar</button>
+							<small id="emailHelp" class="form-text text-muted">Ao conectar, você será direcionado para nossa página no Instagram. Divirta-se.</small>
+							<div>
+								<small id="msg" class="form-text text-right mt-4 text-jv" style="font-weight: bold;">Feito com <img src="satto.ico" alt="" width="20"> por Jv/Satto Telecom Jr.</small>
+							</div>
+						</form>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+	</div>
+</body>
+</body>
+</html>

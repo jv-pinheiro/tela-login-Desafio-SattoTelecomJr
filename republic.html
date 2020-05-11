@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faça seu login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/css" href="rb-logo2.jpg">
+</head>
+<body>
+	<div class="container">
+		<div class="row mv-auto mx-auto">
+			<div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 mx-auto">
+				<div class="card transp-card2">
+					<div class="card-body">
+						<div class="card-title text-center">
+							<img src="rb-logo.png" width="300">
+							</div>
+							<form method="post" action="$PORTAL_ACTIONS">
+							<div class="form-group">
+								<label class="text-jv">Usuário</label>
+								<input type="text" name="auth_user" class="form-control transp-card text-jv" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome cadastrado...">
+								<small id="emailHelp" class="form-text text-jv"> Ambiente reservado para funcionários cadastrados.</small>
+							</div>
+							<div class="form-group">
+								<label class="text-jv">Senha</label>
+								<input type="password" name="auth_pass" class="form-control transp-card text-jv" id="exampleInputPassword1" placeholder="Senha cadastrada...">
+							</div>
+							<div class="form-group">
+								<hr style="border-color: #FF0000; border-width: 3px">
+								<label class="text-jv">Olá Cliente, digite abaixo sua credencial obtida no balcão:</label>
+								<input type="text" name="auth_voucher" class="form-control transp-card text-jv" id="exampleInputPassword1" placeholder="Voucher/credenciais...">
+							</div>
+							<input type="hidden" name="rediurl" value="$PORTAL_REDIRURL$">
+							<input type="hidden" name="zone" value="$PORTAL_ZONE$">
+							<button type="submit" name="accept" value="Continue" class="btn btn-block btn-jv text-uppercase">Verificar</button>
+							<small id="emailHelp" class="form-text text-jv">Ao conectar, você será direcionado para nossa página no Instagram. Divirta-se.</small>
+							<div>
+								<small id="msg" class="form-text text-right mt-4 text-jv" style="font-weight: bold;">Feito com 🤘/🥰/😎/❤️ por Jv/Satto Telecom Jr.</small>
+							</div>
+							</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
